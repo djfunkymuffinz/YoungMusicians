@@ -1,0 +1,13 @@
+.mat-tab-label, .mat-tab-link {
+  color: rgba(255,255,255,1);
+}
+
+.mat-toolbar.mat-primary {
+  position: fixed;
+  z-index: 1;
+}
+
+.mat-sidenav-container {
+  margin-top: 64px;
+  z-index: 0;
+}

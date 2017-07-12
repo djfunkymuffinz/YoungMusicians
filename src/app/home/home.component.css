@@ -1,0 +1,12 @@
+.content-div {
+  align-items: center;
+}
+
+.mat-card-title {
+  font-size: 22px;
+}
+
+.content-card {
+  max-width: 500px;
+  margin: 16px;
+}
