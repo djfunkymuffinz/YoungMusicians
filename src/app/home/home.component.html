@@ -1,46 +1,13 @@
-<div fxLayout="column" class="content-div">
-  <md-card class="content-card">
+<div class="content-div" [@listAnimation]="contentCards.length">
+  <md-card *ngFor="let card of contentCards" class="content-card">
     <md-card-header>
-      <md-card-title>What is the program?</md-card-title>
+      <md-card-title>{{ card.title }}</md-card-title>
     </md-card-header>
-    <img md-card-image src="assets/BigDrumBoisWithTone.jpg" />
-    <md-card-content>
-      <p>
-        The Young Musicians Summer Academy is a unique summer camp designed to offer musical enrichment to middle and high school students through musical workshops, lessons, and performance opportunities with guest artist faculty.
-      </p>
-    </md-card-content>
+    <img md-card-image src="{{ card.image }}"/>
   </md-card>
-
-  <md-card class="content-card">
-    <md-card-header>
-    </md-card-header>
-    <img md-card-image src="assets/BigDrumBoisWithTone.jpg" />
-    <md-card-content>
-      <h3>
-        The Young Musicians Summer Academy is a unique summer camp designed to offer musical enrichment to middle and high school students through musical workshops, lessons, and performance opportunities with guest artist faculty.
-      </h3>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="content-card">
-    <md-card-header>
-    </md-card-header>
-    <img md-card-image src="assets/BigDrumBoisWithTone.jpg" />
-    <md-card-content>
-      <h3>
-        The Young Musicians Summer Academy is a unique summer camp designed to offer musical enrichment to middle and high school students through musical workshops, lessons, and performance opportunities with guest artist faculty.
-      </h3>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="content-card">
-    <md-card-header>
-    </md-card-header>
-    <img md-card-image src="assets/BigDrumBoisWithTone.jpg" />
-    <md-card-content>
-      <h3>
-        The Young Musicians Summer Academy is a unique summer camp designed to offer musical enrichment to middle and high school students through musical workshops, lessons, and performance opportunities with guest artist faculty.
-      </h3>
-    </md-card-content>
-  </md-card>
+</div>
+<div>
+  <p>
+    {{ content }}
+  </p>
 </div>

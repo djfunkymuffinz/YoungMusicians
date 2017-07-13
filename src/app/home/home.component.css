@@ -1,5 +1,15 @@
 .content-div {
-  align-items: center;
+  overflow-x: scroll;
+  white-space: nowrap;
+  height: auto;
+  margin-left: 32px;
+  margin-right: 32px;
+  padding: 16px;
+}
+
+.content-card img {
+  width: 300px;
+  align-self: flex-end;
 }
 
 .mat-card-title {
@@ -7,6 +17,6 @@
 }
 
 .content-card {
-  max-width: 500px;
   margin: 16px;
+  display: inline-block;
 }
