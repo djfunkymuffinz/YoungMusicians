@@ -1,4 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import {
+  trigger,
+  state,
+  style,
+  transition,
+  animateChild,
+  stagger,
+  query,
+  animate,
+  keyframes
+} from '@angular/animations';
 
 @Component({
   selector: 'app-faculty',
@@ -7,7 +18,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FacultyComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }

@@ -1,5 +1,6 @@
 .content-div {
   overflow-x: scroll;
+  overflow-y: hidden;
   white-space: nowrap;
   height: auto;
   margin-left: 32px;
