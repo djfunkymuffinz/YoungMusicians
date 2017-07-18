@@ -1,15 +1,30 @@
-<div class="content-div" [@listAnimation]="contentCards.length">
-  <md-card *ngFor="let card of contentCards" class="content-card">
+<div
+  class="content-div"
+  [@listAnimation]="contentCards.length">
+  <md-card
+    *ngFor="let card of contentCards;"
+    (click)="toggleDrawer(card)"
+    class="content-card">
     <md-card-header>
       <md-card-title>{{ card.title }}</md-card-title>
     </md-card-header>
-    <img md-card-image src="{{ card.image }}"/>
+    <img
+      md-card-image
+      src="{{ card.image }}"/>
   </md-card>
 </div>
-<div>
-  <p>
-    {{ content }}
-  </p>
+<div
+  class="drawer"
+  [@drawerAnimation]='drawerState'>
+  <div
+    class="drawerContainer">
+    <h2
+      *ngFor="let card of selectedCards;"
+      (@drawerContainerAnimation.Done)="drawerContainerAnimationDone($event)"
+      [@drawerContainerAnimation]="card.state">
+      {{ card.content }}
+    </h2>
+  </div>
 </div>
 <hr />
 <app-faculty></app-faculty>
