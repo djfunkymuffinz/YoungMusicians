@@ -45,10 +45,10 @@ import {
       state('in', style({transform: 'translateX(0)', opacity: 1})),
       transition('void => in', [
         style({transform: 'translateX(-50%)', opacity: 0}),
-        animate('500ms ease-out')
+        animate('300ms ease-out')
       ]),
       transition('in => void', [
-        animate('500ms ease-in', style({transform: 'translateX(50%)', opacity: 0}))
+        animate('300ms ease-in', style({transform: 'translateX(50%)', opacity: 0}))
       ])
     ])
   ]
@@ -91,13 +91,14 @@ The public is welcome!`
   }];
   drawerState = 'closed';
   selectedCards = [];
-  nextCard = {};
+  nextCard = null;
 
   drawerContainerAnimationDone($event) {
-    if($event.toState === 'void') {
+    if($event.toState === 'void' && this.nextCard !== null) {
       this.selectedCards.push(this.nextCard);
-      this.nextCard = {};
+      this.nextCard = null;
     }
+    console.log(this.selectedCards);
   }
 
   toggleDrawer(card) {

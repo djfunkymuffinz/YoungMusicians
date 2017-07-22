@@ -1,7 +1,79 @@
-button {
-  border: none;
-  margin-bottom: 20px;
-  padding: 10px;
-  background: blueviolet;
-  color: #fff
+:host {
+  display: flex;
+  flex: 1;
+}
+
+md-sidenav {
+  width: 320px;
+  height: 100%;
+}
+
+md-card {
+  width: 600px;
+}
+
+.cardAvatar img {
+  display: block;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 16px;
+  min-width: 200px;
+  max-width: 300px;
+  height: auto;
+}
+
+.content {
+  padding: 16px;
+}
+
+.avatar--square img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.avatar--portrait {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.avatar--portrait img {
+  width: 100%;
+  height: auto;
+}
+
+.avatar--chris {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.avatar--chris img {
+  margin-top: -10px;
+  width: 100%;
+  height: auto;
+}
+
+.avatar--landscape {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.avatar--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -16px;
+}
+
+md-list-item span {
+  margin-left: 16px;
 }

@@ -1,3 +1,36 @@
-<p>
-  faculty works!
-</p>
+
+<div display="flex" flex-direction="column">
+  <md-toolbar>
+    <span>Meet the Faculty</span>
+  </md-toolbar>
+
+  <md-sidenav-container>
+    <md-sidenav mode="side" opened="true">
+      <md-nav-list>
+        <md-list-item
+          *ngFor="let member of faculty; let i = index;"
+          (click)="selectMember(i)">
+          <div class="{{member.class}}">
+            <img src="{{member.avatar}}" />
+          </div>
+          <span>{{ member.name }}</span>
+        </md-list-item>
+      </md-nav-list>
+    </md-sidenav>
+    <div class="content">
+      <md-card>
+        <md-card-header>
+          <md-card-title>{{selectedMember.name}}</md-card-title>
+          <md-card-subtitle>{{selectedMember.title}}</md-card-subtitle>
+        </md-card-header>
+        <div class="cardAvatar">
+          <img src="{{selectedMember.avatar}}" />
+        </div>
+        <hr />
+        <md-card-content>
+          <p>{{selectedMember.bio}}</p>
+        </md-card-content>
+      </md-card>
+    </div>
+  </md-sidenav-container>
+</div>
