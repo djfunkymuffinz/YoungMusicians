@@ -195,6 +195,120 @@ export class FacultyComponent implements OnInit {
       artists as concertmaster Jorja Fleezanis, and conductors Michael Stern,
       Courtney Lewis, Osmo Vanska, and Larry Rachleff.`,
       avatar: 'assets/avatars/StephanieSkor.jpg'
+    }, {
+      name: 'Martha Mancuso',
+      class: 'avatar--chris',
+      title: 'Strings',
+      bio: `Martha Mancuso received a Bachelor of Music in Cello Performance
+      from Peabody Conservatory and a Master of Arts in Teaching from Salisbury
+      University. She has been an instructor at the Music School of Delaware,
+      Salisbury University’s Presto Preparatory Program, Salisbury University,
+      and University of Maryland Eastern Shore. Currently, Martha teaches Chorus
+      and General Music at North Caroline High School and orchestra at Lockerman
+      Middle. In addition, she performs with the Salisbury Symphony Orchestra,
+      maintains a private studio and freelances locally.`,
+      avatar: 'assets/avatars/MarthaMancuso.png'
+    }, {
+      name: 'Ryan List',
+      class: 'none',
+      title: 'Equipment Manager and Music Technology Instructor',
+      bio: `Ryan List is in his second year of teaching classroom music, band,
+      chorus at Preston Elementary School. In addition to his duties at PES, Mr.
+      List serves as Drill Writer and Visual Coordinator for the Colonel
+      Richardson High School Spirit of the Revolution Marching Band. He's also
+      the unofficial recording technician for CRHS and CRMS. Outside of school,
+      Mr. List maintains a small private lesson studio and performs as a
+      trombonist in various local musical ensembles.
+      Mr. List earned his Bachelor of Science in Music Education and a Bachelor of
+      Arts in Music with a Concentration in Trombone from Lebanon Valley College in
+      Annville, Pennsylvania (2012). After graduating, he served as Second Assistant
+      Director for the Middletown Area High School Blue Raider Marching Band before
+      moving to Denton, Maryland in 2015. This is Mr. List's first year at the Summer
+      Music Academy.`,
+      avatar: ''
+    }, {
+      name: 'Matthew Murchison',
+      class: 'avatar--portrait',
+      title: 'Special Guest Instructor',
+      bio: `Matthew Murchison is a musician. Keep reading for more details.
+      Matthew enjoys a varied career as a performer, composer, arranger,
+      educator, conductor, and producer. Matthew has been called one of the
+      finest players of his (or any) generation. He has also been called other
+      things which should not be repeated here.
+      Matthew was a member of River City Brass in Pittsburgh, PA from 2002-2015
+      where he was a featured soloist hundreds of times. His solo performances
+      with the River City Brass have been broadcast across the country. His
+      comedy songs have been enjoyed by tens of people from every dark corner of
+      the internet.
+      As a brass musician Matthew plays euphonium, tuba, and trumpet. Matthew
+      has served as producer for CD recordings and can be heard on solo,
+      chamber, large ensemble, and rock band albums. He has also been hired to
+      write jokes and perform as the emcee for concerts. Matthew has performed
+      solo and chamber music concerts all across the United States as well as in
+      South America, Europe, and Asia. He has been able to perform with groups
+      such as the Pittsburgh Symphony, Brass Band of Battle Creek, United States
+      Army Band ͞Pershing’s Own, and the Dallas Wind Symphony. His piece
+      "Motions" won a Harvey Phillips Award for Composition Excellence at the
+      2016 International Tuba/Euphonium Conference.
+      Matthew is a regularly featured performer at regional, national, and
+      international conferences and has served on adjudication panels for
+      international composition and performance competitions. As a member of the
+      award-winning River Bottom Quartet, Matthew has performed as the opening
+      act for the world-renowned Emerson String Quartet. Matthew’s interest in a
+      variety of music means that he’s performed in bars, concert halls, and for
+      tens-of –thousands of slightly buzzed onlookers as part of Pittsburgh’s
+      St. Patrick’s Day celebrations.
+      Matthew self-publishes a number of his compositions though his Bandcamp
+      website while others may be obtained only after completing a series of
+      magical quests. Recent performances of his compositions have taken place
+      across the US as well as in Japan, South America, and Europe. He released
+      his solo CD entitled ͞Everyone But Me" in 2003 on his own Mulholland
+      Records and Music label. Matthew performs exclusively on the XO
+      euphonium.`,
+      avatar: 'assets/avatars/MatthewMurchison.jpg'
+    }, {
+      name: 'Tim Wittemore',
+      class: 'avatar--portrait',
+      title: 'Special Guest Instructor',
+      bio: `Tim Whittemore - Didjiridu Performance and workshop. Learn more
+      about Tim and his music at his website http://www.didjbusker.com`,
+      avatar: 'assets/avatars/TimWhittemore.jpg'
+    }, {
+      name: 'Mickey Justice',
+      class: 'avatar--landscape',
+      title: 'Special Guest Instructor',
+      bio: ``,
+      avatar: 'assets/avatars/MickeyJustice.jpg'
+    }, {
+      name: 'Scott Bunting',
+      class: 'none',
+      title: 'Artistic Director',
+      bio: `Scott Bunting has been teaching and performing for most of his life.
+      He holds a degree in music education from Salisbury University and
+      continues to play with the Salisbury Symphony Orchestra. Scott's main
+      instrument is clarinet, but he performs regularly on a variety of
+      instruments, including saxophone, trombone and guitar. Currently, he works
+      at Cambridge-South Dorchester High School teaching Band and Choir. Scott
+      hopes to continue directing musical ensembles and to focus on Music Theory
+      and Composition.`,
+      avatar: ''
+    }, {
+      name: 'Rob Honer',
+      class: 'avatar--portrait',
+      title: 'Administrative Director',
+      bio: `Rob Honer is the Co-Founder and Administrative Director of the Young
+      Musician’s Summer Academy. A lifelong musician, Rob began playing the
+      banjo when he was 5 with his family in church. He studied saxophone
+      performance at Bucks County Community college and received his Elementary
+      teaching degree from Towson University. He has performed with the Kent
+      County Community Marching Band, Smyrna Fire Company Marching Band, and
+      currently performs with the Mid Shore Community Band, The Choptank Big
+      Band, and has played in several pit bands (guitar and saxophone) for the
+      Colonel Richardson High School Drama department. He is also a past Vice
+      President and President of the Caroline County Council of Arts. Since 1999
+      he has been the 6th grade science teacher at Colonel Richardson Middle
+      School.`,
+      avatar: 'assets/avatars/RobHoner.png'
     }
   ]
 
